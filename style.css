@@ -1,0 +1,373 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+a{
+  color: inherit;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(./fotos/couple-4615557.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.container {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #000000;
+    background-color: #ffffffc9;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: 30%;
+    font-size: 100px;
+    color: #000000;
+    font-family: 'Tangerine', cursive;
+}
+
+.ops {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0.8%;
+    margin-right: 3%;
+}
+
+.ops:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-in-out;
+}
+.ops:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ops:before{
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  transform: scaleY(0);
+}
+
+.ops:after{
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transform: scaleX(0);
+}
+
+.ops:hover:before {
+  transform: scaleY(0);
+}
+
+.ops:hover:after {
+  transform: scaleX(1);
+}
+
+.o5 {
+    margin-right: 13%
+}
+
+.borda {
+    height: 5px;
+    background-color: #000000;
+}
+
+.meio {
+    margin-top: 45%;
+    background-color: rgb(255, 255, 255);
+}
+
+hr {
+    margin-left: 20%;
+}
+
+h1 {
+    margin-left: 20%;
+}
+
+#p1{
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin-left: 20%;
+}
+
+.perfil{
+    margin-left: 2%;
+    border-radius: 50%;
+    margin-right: 20%;
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-image: url(./fotos/adler-2386314_640.jpg);
+}
+
+.sobe{
+    cursor: pointer;
+    margin-left: 97%;
+    position:fixed;
+    top: 90%;
+}
+
+.sobe:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-in-out;
+}
+.sobe:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sobe:before{
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  transform: scaleY(0);
+}
+
+.sobe:after{
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transform: scaleX(0);
+}
+
+.sobe:hover:before {
+  transform: scaleY(1);
+}
+
+.sobe:hover:after {
+  transform: scaleX(0);
+}
+
+.item1 {
+    grid-area: a1;
+    background: url(./fotos/wedding-725432_1280.jpg);
+    background-size: cover;
+  }
+
+  .item2 {
+    grid-area: a2;
+    background: url(./fotos/portrait-2705249_1280.jpg);
+    background-size: cover;
+  }
+
+  .item3 {
+    grid-area: a3;
+    background: url(./fotos/wedding-1353829_1280.jpg);
+    background-size: cover;
+  }
+
+  .item4 {
+    grid-area: a4;
+    background: url(./fotos/wedding-2595862_1280.jpg);
+    background-size: cover;
+  }
+
+  .item5 {
+    grid-area: a5;
+    background: url(./fotos/rings-1196145_1280.jpg);
+    background-size: cover;
+  }
+
+  .item6 {
+    grid-area: a6;
+    background: url(./fotos/bride-1837148_1280.jpg);
+    background-size: cover;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid:
+    'a1 a1 a2 a3 a4'
+    'a1 a1 a2 a3 a4'
+    'a1 a1 a2 a5 a6'
+    'a1 a1 a2 a5 a6';
+    grid-gap: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .grid-container{
+    height: 500px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#t2{
+    word-spacing: 3px;
+    text-align: center;
+    color: #000000;
+}
+
+.itemA {
+    border: solid 1px;
+    background: url(./fotos/tango-190026_1280.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+  }
+
+  .itemB {
+    border: solid 1px;
+    background: url(./fotos/wedding-6173363_1280.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+  }
+
+  .itemC {
+    border: solid 1px;
+    background: url(./fotos/wedding-5929947_1280.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+  }
+
+  .jkj{
+    filter: grayscale(0.8);
+  }
+
+  .jkj:hover{
+    filter: grayscale(0);
+    transition: ease 0.3s;    
+  }
+  
+  .contcont{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .itens:hover{
+    filter: grayscale(0);
+    transition: ease 0.5s;
+  transform: scale(1.1);
+  }
+
+  .itens{
+    filter: grayscale(0.8);
+  }
+
+  .tA {
+      margin-top: 20px;
+    width: 250px;
+  }
+
+  .tB {
+    width: 250px;
+  }
+
+  .tC {
+    width: 250px;
+  }
+  
+  .text{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+  }
+
+#JA{
+    display: inline-block;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+#DA{
+    display: inline-block;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+#JR{
+    display: inline-block;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+#JA:hover{
+    transition: 340ms;
+    color: tomato;
+}
+
+#DA:hover{
+    transition: 340ms;
+    color: tomato;
+}
+
+#JR:hover{
+    transition: 340ms;
+    color: tomato;
+}
+
+ins{
+    cursor: pointer;
+}
+
+.form{
+    margin-left: 10%;
+    margin-right: 60%;
+    color: white;
+}
+
+.pé{
+    background-color: white;
+}
+
+.ico:hover{
+  transition: ease 0.5s;
+  transform: scale(1.1);
+}
+
+.face{
+    margin-left: 40%;
+    display: inline-block;
+}
+
+.insta{
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.vimeo{
+    margin-left:5%;
+    display: inline-block;
+}
+
+.meinho{
+    font-size: 1.7rem;
+    text-align: center;
+}
